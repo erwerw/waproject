@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border:1px solid black; */
+}
+:root{
+    --color:#232A40;
+}
+html,body{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+}
+
+nav .left{
+    width:10%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--color);
+    margin-left: 1.5rem;
+}
+nav .left img{
+    width:30px;
+    height:30px;
+    margin-bottom: 8px;
+    margin-right: 5px;
+}
+.freegames{
+    width:100%;
+    height:30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.forhr{
+    width:100%;
+    height:20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.forhr hr{
+    width:40%;
+}
+
+article{
+    width:fit-content;
+    height:auto;
+    padding: 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    color:#808080;
+}
+p {
+    max-width: 40em;
+}
+
+.games{
+    width:100%;
+    height:70px;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+main{
+    width: 50%;
+    height:250px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.top{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+.bottom{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.top .left{
+    width:42%;
+    height:100%;
+    background-color: white;
+    box-shadow: 2px 0px 15px rgba(0,0,0,25%);
+    display: flex;
+    border-radius: 5px;
+}
+.top .right{
+    width:50%;
+    height:100%;
+    background-color: white;
+    box-shadow: 2px 0px 15px rgba(0,0,0,25%);
+    display: flex;
+    border-radius: 5px;
+}
+
+.forimg{
+    width: 60%;
+    max-width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    overflow:hidden;
+}
+.right .forimg img{
+    background-color: rgba(197,241,173,50%);
+    border-radius: 50%;
+}
+.forimg img{
+    width:50%;
+    aspect-ratio: 1/1;
+    background-color: rgba(7,68,151,30%);
+    padding: 15%;
+    border-radius: 50%;
+}
+.fortext{
+    width: 65%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+}
+
+
+
+.bottom-card img{
+    width:50%;
+    aspect-ratio: 1/1;
+    background-color: rgba(7,68,151,30%);
+    padding: 15%;
+    border-radius: 50%;
+}
+.bottom-card .forimg{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.bottom-card{
+    width: 96%;
+    height: 90%;
+    background: white;
+    box-shadow: 2px 0px 15px rgba(0,0,0,25%);
+    display: flex;
+    border-radius: 5px;
+    padding: .2rem;
+}
+
+.forbutton{
+    width:50%;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    width:40%;
+    min-width: 200px;
+    height:60px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color:whitesmoke;
+    text-align: center;
+    background-color:var(--color);
+    cursor: pointer;
+    transition: 250ms;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background: #232a40e3;
+}
