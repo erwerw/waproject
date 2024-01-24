@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  button{
+    width:20%;
+    min-width: 200px;
+    height:60px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color:whitesmoke;
+    text-align: center;
+    background-color:#232A40;
+    cursor: pointer;
+    transition: 250ms;
+}
+button:hover{
+    background: #232a40e3;
+}
+  
+.computer-choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#computer-image {
+    width: 150px;
+}
+
+.result {
+    font-size: 20px;
+    font-weight: bold;
+}
