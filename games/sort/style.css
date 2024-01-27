@@ -37,6 +37,7 @@ input{
     font-size: large;
     color:red;
     margin-bottom: 1.5rem;
+    padding-bottom: .3rem;
 }
 button{
     width:50%;
