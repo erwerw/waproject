@@ -1,25 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sort a Word</title>
-    <link rel="stylesheet" href="../../font.css">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sort a word</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-
-    <form action="index.html">
-
-        <h1>Text</h1>
-        <input type="text">
-        <button type="submit">Check</button>
-
-
-    </form>
-
-
-<script src="js.js"></script>
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/words.js" defer></script>
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Sort a word </h2>
+      <div class="content">
+        <form id="wordForm">
+          <p class="word"></p>
+          <div class="details">
+            <p class="hint">Hint: <span></span></p>
+            <p class="time">Time Left: <span><b>30</b>s</span></p>
+          </div>
+          <input type="text" id="userInput" name="userInput" placeholder="Enter a valid word" required>
+          <div class="buttons">
+            <button type="button" class="refresh-word">Refresh Word</button>
+            <button type="submit" class="check-word">Check Word</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
